@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC036A0151DA468003114FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC0369F151DA468003114FC /* UIKit.framework */; };
+		DDC036A2151DA468003114FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC036A1151DA468003114FC /* Foundation.framework */; };
+		DDC036A4151DA468003114FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC036A3151DA468003114FC /* CoreGraphics.framework */; };
+		DDC036AA151DA469003114FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDC036A8151DA469003114FC /* InfoPlist.strings */; };
+		DDC036AC151DA469003114FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC036AB151DA469003114FC /* main.m */; };
+		DDC036B0151DA469003114FC /* ContainerViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC036AF151DA469003114FC /* ContainerViewControllerAppDelegate.m */; };
+		DDC036B3151DA469003114FC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC036B1151DA469003114FC /* MainStoryboard.storyboard */; };
+		DDC036B6151DA469003114FC /* ContainerViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC036B5151DA469003114FC /* ContainerViewControllerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDC0369B151DA468003114FC /* ContainerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC0369F151DA468003114FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDC036A1151DA468003114FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDC036A3151DA468003114FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDC036A7151DA469003114FC /* ContainerViewController-Info.plist */ = {isa = PBXFileReference; path = "ContainerViewController-Info.plist"; sourceTree = "<group>"; };
+		DDC036A9151DA469003114FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDC036AB151DA469003114FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC036AD151DA469003114FC /* ContainerViewController-Prefix.pch */ = {isa = PBXFileReference; path = "ContainerViewController-Prefix.pch"; sourceTree = "<group>"; };
+		DDC036AE151DA469003114FC /* ContainerViewControllerAppDelegate.h */ = {isa = PBXFileReference; path = ContainerViewControllerAppDelegate.h; sourceTree = "<group>"; };
+		DDC036AF151DA469003114FC /* ContainerViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		DDC036B2151DA469003114FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DDC036B4151DA469003114FC /* ContainerViewControllerViewController.h */ = {isa = PBXFileReference; path = ContainerViewControllerViewController.h; sourceTree = "<group>"; };
+		DDC036B5151DA469003114FC /* ContainerViewControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewControllerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC03698151DA468003114FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC036A0151DA468003114FC /* UIKit.framework in Frameworks */,
+				DDC036A2151DA468003114FC /* Foundation.framework in Frameworks */,
+				DDC036A4151DA468003114FC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC03690151DA467003114FC = {
+			isa = PBXGroup;
+			children = (
+				DDC036A5151DA468003114FC /* ContainerViewController */,
+				DDC0369E151DA468003114FC /* Frameworks */,
+				DDC0369C151DA468003114FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC0369C151DA468003114FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC0369B151DA468003114FC /* ContainerViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC0369E151DA468003114FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC0369F151DA468003114FC /* UIKit.framework */,
+				DDC036A1151DA468003114FC /* Foundation.framework */,
+				DDC036A3151DA468003114FC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC036A5151DA468003114FC /* ContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDC036AE151DA469003114FC /* ContainerViewControllerAppDelegate.h */,
+				DDC036AF151DA469003114FC /* ContainerViewControllerAppDelegate.m */,
+				DDC036B1151DA469003114FC /* MainStoryboard.storyboard */,
+				DDC036B4151DA469003114FC /* ContainerViewControllerViewController.h */,
+				DDC036B5151DA469003114FC /* ContainerViewControllerViewController.m */,
+				DDC036A6151DA468003114FC /* Supporting Files */,
+			);
+			path = ContainerViewController;
+			sourceTree = "<group>";
+		};
+		DDC036A6151DA468003114FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC036A7151DA469003114FC /* ContainerViewController-Info.plist */,
+				DDC036A8151DA469003114FC /* InfoPlist.strings */,
+				DDC036AB151DA469003114FC /* main.m */,
+				DDC036AD151DA469003114FC /* ContainerViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC0369A151DA468003114FC /* ContainerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC036B9151DA469003114FC /* Build configuration list for PBXNativeTarget "ContainerViewController" */;
+			buildPhases = (
+				DDC03697151DA468003114FC /* Sources */,
+				DDC03698151DA468003114FC /* Frameworks */,
+				DDC03699151DA468003114FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContainerViewController;
+			productName = ContainerViewController;
+			productReference = DDC0369B151DA468003114FC /* ContainerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC03692151DA468003114FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ContainerViewController;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DDC03695151DA468003114FC /* Build configuration list for PBXProject "ContainerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDC03690151DA467003114FC;
+			productRefGroup = DDC0369C151DA468003114FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC0369A151DA468003114FC /* ContainerViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC03699151DA468003114FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC036AA151DA469003114FC /* InfoPlist.strings in Resources */,
+				DDC036B3151DA469003114FC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC03697151DA468003114FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC036AC151DA469003114FC /* main.m in Sources */,
+				DDC036B0151DA469003114FC /* ContainerViewControllerAppDelegate.m in Sources */,
+				DDC036B6151DA469003114FC /* ContainerViewControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDC036A8151DA469003114FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC036A9151DA469003114FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDC036B1151DA469003114FC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC036B2151DA469003114FC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC036B7151DA469003114FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDC036B8151DA469003114FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC036BA151DA469003114FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContainerViewController/ContainerViewController-Prefix.pch";
+				INFOPLIST_FILE = "ContainerViewController/ContainerViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDC036BB151DA469003114FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContainerViewController/ContainerViewController-Prefix.pch";
+				INFOPLIST_FILE = "ContainerViewController/ContainerViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC03695151DA468003114FC /* Build configuration list for PBXProject "ContainerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC036B7151DA469003114FC /* Debug */,
+				DDC036B8151DA469003114FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC036B9151DA469003114FC /* Build configuration list for PBXNativeTarget "ContainerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC036BA151DA469003114FC /* Debug */,
+				DDC036BB151DA469003114FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC03692151DA468003114FC /* Project object */;
+}
