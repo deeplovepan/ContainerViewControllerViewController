@@ -10,4 +10,10 @@
 
 @interface ContainerViewControllerViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *contentView;
+
+- (IBAction)leftButPressed:(id)sender;
+- (IBAction)rightButPressed:(id)sender;
+
+
 @end

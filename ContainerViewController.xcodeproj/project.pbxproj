@@ -15,6 +15,10 @@
 		DDC036B0151DA469003114FC /* ContainerViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC036AF151DA469003114FC /* ContainerViewControllerAppDelegate.m */; };
 		DDC036B3151DA469003114FC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC036B1151DA469003114FC /* MainStoryboard.storyboard */; };
 		DDC036B6151DA469003114FC /* ContainerViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC036B5151DA469003114FC /* ContainerViewControllerViewController.m */; };
+		DDC036BE151DA6F4003114FC /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC036BD151DA6F4003114FC /* LeftViewController.m */; };
+		DDC036C1151DA707003114FC /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC036C0151DA707003114FC /* RightViewController.m */; };
+		DDC036C3151DA7AA003114FC /* leftPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDC036C2151DA7AA003114FC /* leftPhoto.jpg */; };
+		DDC036C5151DA7C7003114FC /* rightPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDC036C4151DA7C7003114FC /* rightPhoto.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,21 @@
 		DDC0369F151DA468003114FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDC036A1151DA468003114FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDC036A3151DA468003114FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DDC036A7151DA469003114FC /* ContainerViewController-Info.plist */ = {isa = PBXFileReference; path = "ContainerViewController-Info.plist"; sourceTree = "<group>"; };
+		DDC036A7151DA469003114FC /* ContainerViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContainerViewController-Info.plist"; sourceTree = "<group>"; };
 		DDC036A9151DA469003114FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDC036AB151DA469003114FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DDC036AD151DA469003114FC /* ContainerViewController-Prefix.pch */ = {isa = PBXFileReference; path = "ContainerViewController-Prefix.pch"; sourceTree = "<group>"; };
-		DDC036AE151DA469003114FC /* ContainerViewControllerAppDelegate.h */ = {isa = PBXFileReference; path = ContainerViewControllerAppDelegate.h; sourceTree = "<group>"; };
+		DDC036AD151DA469003114FC /* ContainerViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContainerViewController-Prefix.pch"; sourceTree = "<group>"; };
+		DDC036AE151DA469003114FC /* ContainerViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewControllerAppDelegate.h; sourceTree = "<group>"; };
 		DDC036AF151DA469003114FC /* ContainerViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewControllerAppDelegate.m; sourceTree = "<group>"; };
 		DDC036B2151DA469003114FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DDC036B4151DA469003114FC /* ContainerViewControllerViewController.h */ = {isa = PBXFileReference; path = ContainerViewControllerViewController.h; sourceTree = "<group>"; };
+		DDC036B4151DA469003114FC /* ContainerViewControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewControllerViewController.h; sourceTree = "<group>"; };
 		DDC036B5151DA469003114FC /* ContainerViewControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewControllerViewController.m; sourceTree = "<group>"; };
+		DDC036BC151DA6F4003114FC /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		DDC036BD151DA6F4003114FC /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		DDC036BF151DA707003114FC /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		DDC036C0151DA707003114FC /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		DDC036C2151DA7AA003114FC /* leftPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leftPhoto.jpg; sourceTree = "<group>"; };
+		DDC036C4151DA7C7003114FC /* rightPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rightPhoto.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,10 @@
 				DDC036B4151DA469003114FC /* ContainerViewControllerViewController.h */,
 				DDC036B5151DA469003114FC /* ContainerViewControllerViewController.m */,
 				DDC036A6151DA468003114FC /* Supporting Files */,
+				DDC036BC151DA6F4003114FC /* LeftViewController.h */,
+				DDC036BD151DA6F4003114FC /* LeftViewController.m */,
+				DDC036BF151DA707003114FC /* RightViewController.h */,
+				DDC036C0151DA707003114FC /* RightViewController.m */,
 			);
 			path = ContainerViewController;
 			sourceTree = "<group>";
@@ -90,6 +104,8 @@
 		DDC036A6151DA468003114FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DDC036C2151DA7AA003114FC /* leftPhoto.jpg */,
+				DDC036C4151DA7C7003114FC /* rightPhoto.jpg */,
 				DDC036A7151DA469003114FC /* ContainerViewController-Info.plist */,
 				DDC036A8151DA469003114FC /* InfoPlist.strings */,
 				DDC036AB151DA469003114FC /* main.m */,
@@ -151,6 +167,8 @@
 			files = (
 				DDC036AA151DA469003114FC /* InfoPlist.strings in Resources */,
 				DDC036B3151DA469003114FC /* MainStoryboard.storyboard in Resources */,
+				DDC036C3151DA7AA003114FC /* leftPhoto.jpg in Resources */,
+				DDC036C5151DA7C7003114FC /* rightPhoto.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +182,8 @@
 				DDC036AC151DA469003114FC /* main.m in Sources */,
 				DDC036B0151DA469003114FC /* ContainerViewControllerAppDelegate.m in Sources */,
 				DDC036B6151DA469003114FC /* ContainerViewControllerViewController.m in Sources */,
+				DDC036BE151DA6F4003114FC /* LeftViewController.m in Sources */,
+				DDC036C1151DA707003114FC /* RightViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +295,7 @@
 				DDC036BB151DA469003114FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
